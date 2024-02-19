@@ -1,0 +1,94 @@
+ .container{
+    margin-top: 4rem;
+ }
+
+ .page-header1 {
+    
+    // height: 225px;
+    // padding: 125px 0;
+    // text-align: center;
+     
+    // background-color: rgb(215, 210, 210);
+} 
+
+.page-title1 {
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.breadcrumbs-title {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.column-details {
+    display: flex;
+    margin: 30px;
+    
+}
+
+/* * column-details {
+    align-items: center;
+} */
+
+.contact {
+    /* width: 35%; */
+    /* background-color: #e3dfdf; */
+     
+}
+
+.message {
+    width: 75%;
+  
+    
+    
+}
+
+.items {
+    margin: 2rem 0.5rem;
+    /* margin-top: 5px; */
+    /* background-color: grey; */
+    color: grey;
+    display: flex;
+    /* align-items: center; */
+}
+/* .items i {font-size: 25px; margin-right: 10px; color: red;} */
+
+* items {
+    /* margin: 5px; */
+}
+
+
+.column-details h1 {
+    font-size: 22px;
+    font-weight: 550;
+    margin-bottom: 15px;
+    
+}
+.text-center {text-align: center;}
+
+.boxes {
+    width: 100%;
+    margin: 20px; 
+    margin-left: 10px;
+    
+    display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+  }
+  .boxes div {flex: 50%; padding: 10px; }
+  .boxes div:last-child {flex: 100%; }
+  
+  .boxes input, .boxes textarea {
+    width: 100%; 
+    padding: 8px; 
+    box-sizing: border-box; 
+    /* margin-bottom: 10px;  */
+    /* margin-left: 50px; */
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 15px; 
+    margin: 10px;
+    
+  }
+  
